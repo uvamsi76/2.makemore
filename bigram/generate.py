@@ -17,5 +17,5 @@ def generate(model,itos,n):
                 break
         name=''.join(out)
         results.append(name)
-        print(name)
+        # print(name)
     return results
